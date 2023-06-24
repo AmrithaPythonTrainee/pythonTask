@@ -1,0 +1,11 @@
+n=int(input("enter length of fibonacci series: "))
+num1=0
+num2=1
+k=0
+count=1
+while count<=n:
+    print(k,end=" \n")
+    count+=1
+    num1=num2
+    num2=k
+    k=num1+num2
